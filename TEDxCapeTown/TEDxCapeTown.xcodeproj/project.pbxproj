@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2171AA8A1F28FBA70026E4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA891F28FBA70026E4FC /* AppDelegate.swift */; };
+		2171AA8C1F28FBA70026E4FC /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA8B1F28FBA70026E4FC /* SpeakersViewController.swift */; };
+		2171AA8E1F28FBA70026E4FC /* TalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA8D1F28FBA70026E4FC /* TalksViewController.swift */; };
+		2171AA911F28FBA70026E4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2171AA8F1F28FBA70026E4FC /* Main.storyboard */; };
+		2171AA931F28FBA70026E4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2171AA921F28FBA70026E4FC /* Assets.xcassets */; };
+		2171AA961F28FBA70026E4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2171AA941F28FBA70026E4FC /* LaunchScreen.storyboard */; };
+		2171AAA11F28FBA80026E4FC /* TEDxCapeTownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AAA01F28FBA80026E4FC /* TEDxCapeTownTests.swift */; };
+		2171AAAC1F28FBA80026E4FC /* TEDxCapeTownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AAAB1F28FBA80026E4FC /* TEDxCapeTownUITests.swift */; };
+		2171AABD1F2910B70026E4FC /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AABC1F2910B70026E4FC /* EventViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2171AA9D1F28FBA80026E4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2171AA7E1F28FBA70026E4FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2171AA851F28FBA70026E4FC;
+			remoteInfo = TEDxCapeTown;
+		};
+		2171AAA81F28FBA80026E4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2171AA7E1F28FBA70026E4FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2171AA851F28FBA70026E4FC;
+			remoteInfo = TEDxCapeTown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2171AA861F28FBA70026E4FC /* TEDxCapeTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxCapeTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2171AA891F28FBA70026E4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2171AA8B1F28FBA70026E4FC /* SpeakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
+		2171AA8D1F28FBA70026E4FC /* TalksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalksViewController.swift; sourceTree = "<group>"; };
+		2171AA901F28FBA70026E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2171AA921F28FBA70026E4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2171AA951F28FBA70026E4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2171AA971F28FBA70026E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2171AA9C1F28FBA80026E4FC /* TEDxCapeTownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEDxCapeTownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2171AAA01F28FBA80026E4FC /* TEDxCapeTownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxCapeTownTests.swift; sourceTree = "<group>"; };
+		2171AAA21F28FBA80026E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2171AAA71F28FBA80026E4FC /* TEDxCapeTownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEDxCapeTownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2171AAAB1F28FBA80026E4FC /* TEDxCapeTownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEDxCapeTownUITests.swift; sourceTree = "<group>"; };
+		2171AAAD1F28FBA80026E4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2171AABC1F2910B70026E4FC /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2171AA831F28FBA70026E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AA991F28FBA80026E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AAA41F28FBA80026E4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2171AA7D1F28FBA70026E4FC = {
+			isa = PBXGroup;
+			children = (
+				2171AA881F28FBA70026E4FC /* TEDxCapeTown */,
+				2171AA9F1F28FBA80026E4FC /* TEDxCapeTownTests */,
+				2171AAAA1F28FBA80026E4FC /* TEDxCapeTownUITests */,
+				2171AA871F28FBA70026E4FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2171AA871F28FBA70026E4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2171AA861F28FBA70026E4FC /* TEDxCapeTown.app */,
+				2171AA9C1F28FBA80026E4FC /* TEDxCapeTownTests.xctest */,
+				2171AAA71F28FBA80026E4FC /* TEDxCapeTownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2171AA881F28FBA70026E4FC /* TEDxCapeTown */ = {
+			isa = PBXGroup;
+			children = (
+				2171AABB1F2904B90026E4FC /* Views */,
+				2171AABA1F2904B40026E4FC /* ViewModels */,
+				2171AAB91F2904A90026E4FC /* ViewControllers */,
+				2171AA891F28FBA70026E4FC /* AppDelegate.swift */,
+				2171AA8F1F28FBA70026E4FC /* Main.storyboard */,
+				2171AA921F28FBA70026E4FC /* Assets.xcassets */,
+				2171AA941F28FBA70026E4FC /* LaunchScreen.storyboard */,
+				2171AA971F28FBA70026E4FC /* Info.plist */,
+			);
+			path = TEDxCapeTown;
+			sourceTree = "<group>";
+		};
+		2171AA9F1F28FBA80026E4FC /* TEDxCapeTownTests */ = {
+			isa = PBXGroup;
+			children = (
+				2171AAA01F28FBA80026E4FC /* TEDxCapeTownTests.swift */,
+				2171AAA21F28FBA80026E4FC /* Info.plist */,
+			);
+			path = TEDxCapeTownTests;
+			sourceTree = "<group>";
+		};
+		2171AAAA1F28FBA80026E4FC /* TEDxCapeTownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2171AAAB1F28FBA80026E4FC /* TEDxCapeTownUITests.swift */,
+				2171AAAD1F28FBA80026E4FC /* Info.plist */,
+			);
+			path = TEDxCapeTownUITests;
+			sourceTree = "<group>";
+		};
+		2171AAB91F2904A90026E4FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2171AA8D1F28FBA70026E4FC /* TalksViewController.swift */,
+				2171AA8B1F28FBA70026E4FC /* SpeakersViewController.swift */,
+				2171AABC1F2910B70026E4FC /* EventViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2171AABA1F2904B40026E4FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		2171AABB1F2904B90026E4FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2171AA851F28FBA70026E4FC /* TEDxCapeTown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2171AAB01F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTown" */;
+			buildPhases = (
+				2171AA821F28FBA70026E4FC /* Sources */,
+				2171AA831F28FBA70026E4FC /* Frameworks */,
+				2171AA841F28FBA70026E4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TEDxCapeTown;
+			productName = TEDxCapeTown;
+			productReference = 2171AA861F28FBA70026E4FC /* TEDxCapeTown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2171AA9B1F28FBA80026E4FC /* TEDxCapeTownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2171AAB31F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownTests" */;
+			buildPhases = (
+				2171AA981F28FBA80026E4FC /* Sources */,
+				2171AA991F28FBA80026E4FC /* Frameworks */,
+				2171AA9A1F28FBA80026E4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2171AA9E1F28FBA80026E4FC /* PBXTargetDependency */,
+			);
+			name = TEDxCapeTownTests;
+			productName = TEDxCapeTownTests;
+			productReference = 2171AA9C1F28FBA80026E4FC /* TEDxCapeTownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2171AAA61F28FBA80026E4FC /* TEDxCapeTownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2171AAB61F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownUITests" */;
+			buildPhases = (
+				2171AAA31F28FBA80026E4FC /* Sources */,
+				2171AAA41F28FBA80026E4FC /* Frameworks */,
+				2171AAA51F28FBA80026E4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2171AAA91F28FBA80026E4FC /* PBXTargetDependency */,
+			);
+			name = TEDxCapeTownUITests;
+			productName = TEDxCapeTownUITests;
+			productReference = 2171AAA71F28FBA80026E4FC /* TEDxCapeTownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2171AA7E1F28FBA70026E4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TEDxCapeTown;
+				TargetAttributes = {
+					2171AA851F28FBA70026E4FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2171AA9B1F28FBA80026E4FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2171AA851F28FBA70026E4FC;
+					};
+					2171AAA61F28FBA80026E4FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2171AA851F28FBA70026E4FC;
+					};
+				};
+			};
+			buildConfigurationList = 2171AA811F28FBA70026E4FC /* Build configuration list for PBXProject "TEDxCapeTown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2171AA7D1F28FBA70026E4FC;
+			productRefGroup = 2171AA871F28FBA70026E4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2171AA851F28FBA70026E4FC /* TEDxCapeTown */,
+				2171AA9B1F28FBA80026E4FC /* TEDxCapeTownTests */,
+				2171AAA61F28FBA80026E4FC /* TEDxCapeTownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2171AA841F28FBA70026E4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2171AA961F28FBA70026E4FC /* LaunchScreen.storyboard in Resources */,
+				2171AA931F28FBA70026E4FC /* Assets.xcassets in Resources */,
+				2171AA911F28FBA70026E4FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AA9A1F28FBA80026E4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AAA51F28FBA80026E4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2171AA821F28FBA70026E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2171AA8E1F28FBA70026E4FC /* TalksViewController.swift in Sources */,
+				2171AABD1F2910B70026E4FC /* EventViewController.swift in Sources */,
+				2171AA8A1F28FBA70026E4FC /* AppDelegate.swift in Sources */,
+				2171AA8C1F28FBA70026E4FC /* SpeakersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AA981F28FBA80026E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2171AAA11F28FBA80026E4FC /* TEDxCapeTownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2171AAA31F28FBA80026E4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2171AAAC1F28FBA80026E4FC /* TEDxCapeTownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2171AA9E1F28FBA80026E4FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2171AA851F28FBA70026E4FC /* TEDxCapeTown */;
+			targetProxy = 2171AA9D1F28FBA80026E4FC /* PBXContainerItemProxy */;
+		};
+		2171AAA91F28FBA80026E4FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2171AA851F28FBA70026E4FC /* TEDxCapeTown */;
+			targetProxy = 2171AAA81F28FBA80026E4FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2171AA8F1F28FBA70026E4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2171AA901F28FBA70026E4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2171AA941F28FBA70026E4FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2171AA951F28FBA70026E4FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2171AAAE1F28FBA80026E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2171AAAF1F28FBA80026E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2171AAB11F28FBA80026E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEDxCapeTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2171AAB21F28FBA80026E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TEDxCapeTown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2171AAB41F28FBA80026E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TEDxCapeTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxCapeTown.app/TEDxCapeTown";
+			};
+			name = Debug;
+		};
+		2171AAB51F28FBA80026E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TEDxCapeTownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEDxCapeTown.app/TEDxCapeTown";
+			};
+			name = Release;
+		};
+		2171AAB71F28FBA80026E4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TEDxCapeTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TEDxCapeTown;
+			};
+			name = Debug;
+		};
+		2171AAB81F28FBA80026E4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TEDxCapeTownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TEDxCapeTownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TEDxCapeTown;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2171AA811F28FBA70026E4FC /* Build configuration list for PBXProject "TEDxCapeTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2171AAAE1F28FBA80026E4FC /* Debug */,
+				2171AAAF1F28FBA80026E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2171AAB01F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2171AAB11F28FBA80026E4FC /* Debug */,
+				2171AAB21F28FBA80026E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2171AAB31F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2171AAB41F28FBA80026E4FC /* Debug */,
+				2171AAB51F28FBA80026E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2171AAB61F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2171AAB71F28FBA80026E4FC /* Debug */,
+				2171AAB81F28FBA80026E4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2171AA7E1F28FBA70026E4FC /* Project object */;
+}
