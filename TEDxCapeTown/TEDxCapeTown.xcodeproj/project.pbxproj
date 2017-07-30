@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2132CE0F1F2D567100FECF14 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2132CE0E1F2D567100FECF14 /* TableViewDataSource.swift */; };
+		2132CE131F2D676700FECF14 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2132CE121F2D676600FECF14 /* Talk.swift */; };
+		2132CE151F2D698900FECF14 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2132CE141F2D698900FECF14 /* NetworkManager.swift */; };
+		2132CE171F2DBF6E00FECF14 /* MockTalksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2132CE161F2DBF6E00FECF14 /* MockTalksService.swift */; };
+		2132CE191F2DC2CB00FECF14 /* TalksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2132CE181F2DC2CB00FECF14 /* TalksViewModel.swift */; };
 		2171AA8A1F28FBA70026E4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA891F28FBA70026E4FC /* AppDelegate.swift */; };
 		2171AA8C1F28FBA70026E4FC /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA8B1F28FBA70026E4FC /* SpeakersViewController.swift */; };
 		2171AA8E1F28FBA70026E4FC /* TalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171AA8D1F28FBA70026E4FC /* TalksViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2132CE0E1F2D567100FECF14 /* TableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		2132CE121F2D676600FECF14 /* Talk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
+		2132CE141F2D698900FECF14 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2132CE161F2DBF6E00FECF14 /* MockTalksService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTalksService.swift; sourceTree = "<group>"; };
+		2132CE181F2DC2CB00FECF14 /* TalksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalksViewModel.swift; sourceTree = "<group>"; };
 		2171AA861F28FBA70026E4FC /* TEDxCapeTown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEDxCapeTown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2171AA891F28FBA70026E4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2171AA8B1F28FBA70026E4FC /* SpeakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2132CE0D1F2D565500FECF14 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2132CE0E1F2D567100FECF14 /* TableViewDataSource.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		2132CE101F2D674C00FECF14 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2132CE141F2D698900FECF14 /* NetworkManager.swift */,
+				2132CE161F2DBF6E00FECF14 /* MockTalksService.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		2132CE111F2D675A00FECF14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2132CE121F2D676600FECF14 /* Talk.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		2171AA7D1F28FBA70026E4FC = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +136,9 @@
 		2171AA881F28FBA70026E4FC /* TEDxCapeTown */ = {
 			isa = PBXGroup;
 			children = (
+				2132CE111F2D675A00FECF14 /* Models */,
+				2132CE101F2D674C00FECF14 /* Networking */,
+				2132CE0D1F2D565500FECF14 /* Helpers */,
 				2171AABB1F2904B90026E4FC /* Views */,
 				2171AABA1F2904B40026E4FC /* ViewModels */,
 				2171AAB91F2904A90026E4FC /* ViewControllers */,
@@ -144,6 +182,7 @@
 		2171AABA1F2904B40026E4FC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2132CE181F2DC2CB00FECF14 /* TalksViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -290,9 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2171AA8E1F28FBA70026E4FC /* TalksViewController.swift in Sources */,
+				2132CE0F1F2D567100FECF14 /* TableViewDataSource.swift in Sources */,
 				2171AABD1F2910B70026E4FC /* EventViewController.swift in Sources */,
+				2132CE151F2D698900FECF14 /* NetworkManager.swift in Sources */,
 				2171AA8A1F28FBA70026E4FC /* AppDelegate.swift in Sources */,
+				2132CE171F2DBF6E00FECF14 /* MockTalksService.swift in Sources */,
 				2171AA8C1F28FBA70026E4FC /* SpeakersViewController.swift in Sources */,
+				2132CE131F2D676700FECF14 /* Talk.swift in Sources */,
+				2132CE191F2DC2CB00FECF14 /* TalksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +583,7 @@
 				2171AAB21F28FBA80026E4FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2171AAB31F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +592,7 @@
 				2171AAB51F28FBA80026E4FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2171AAB61F28FBA80026E4FC /* Build configuration list for PBXNativeTarget "TEDxCapeTownUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +601,7 @@
 				2171AAB81F28FBA80026E4FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
