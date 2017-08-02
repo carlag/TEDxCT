@@ -36,10 +36,10 @@ class MockTalksService : TalksService {
         
         static func makeMockTalks() -> [Talk] {
             return [
-                Talk(speakerName: "Carla Goldstein", title: "Women In Tech"),
-                Talk(speakerName: "Carla Goldstein", title: "Women In Tech"),
-                Talk(speakerName: "Carla Goldstein", title: "Women In Tech"),
-                Talk(speakerName: "Carla Goldstein", title: "Women In Tech")
+                Talk(speakerName: "Carla Goldstein", title: "Women In Tech", time: Date()),
+                Talk(speakerName: "Carla Goldstein", title: "Women In Tech", time: Date()),
+                Talk(speakerName: "Carla Goldstein", title: "Women In Tech", time: Date()),
+                Talk(speakerName: "Carla Goldstein", title: "Women In Tech", time: Date())
 
             ]
         }

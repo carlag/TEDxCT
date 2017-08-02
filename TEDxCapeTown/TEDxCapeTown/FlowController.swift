@@ -1,5 +1,5 @@
 //
-//  Talk.swift
+//  FlowController.swift
 //  TEDxCapeTown
 //
 //  Created by Carla on 2017/07/30.
@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
-struct Talk {
-    var speakerName : String?
-    var title : String?
-    var time: Date?
+protocol FlowController {
+    
+    var navigationController: UINavigationController {get}
+    
 }

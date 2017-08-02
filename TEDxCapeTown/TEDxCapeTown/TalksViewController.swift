@@ -10,12 +10,11 @@ import UIKit
 
 class TalksViewController: UIViewController {
     
-    
-    var cellIdentifier = "talksTableViewCell"
-    
     @IBOutlet weak var talksTableView: UITableView!
     
+    var cellIdentifier = "talksTableViewCell"
     var talksViewModel : TalksViewModel?
+    var flowDelegate : TalksFlowControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()

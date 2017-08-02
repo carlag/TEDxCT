@@ -1,5 +1,5 @@
 //
-//  Talk.swift
+//  Speaker.swift
 //  TEDxCapeTown
 //
 //  Created by Carla on 2017/07/30.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct Talk {
-    var speakerName : String?
+struct Speaker {
+    var name : String?
     var title : String?
-    var time: Date?
 }
